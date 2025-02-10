@@ -857,6 +857,77 @@ section.testos h2 {
     background: var(--primary-color)
 }
 
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    direction: rtl;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .footer-hotline {
+    background-color: #f1c40f;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .footer-hotline p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .hotline-number {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .hotline-number:hover {
+    color: #222;
+  }
+  
+  .footer-contact {
+    text-align: right;
+  }
+  
+  .footer-contact h3 {
+    color: #f1c40f;
+  }
+  
+  .footer-contact a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-contact a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+  
+
 @media only screen and (max-height:760px) {
     .tel-link:nth-of-type(1) {
         top: 94.5vh
