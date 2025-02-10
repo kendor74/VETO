@@ -611,7 +611,7 @@ header {
     width: 100%;
     position: relative;
     background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url(assets/hero-img.webp) no-repeat center fixed;
-    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/v0.jpg) no-repeat center fixed;
+    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/hero.png) no-repeat center fixed;
     background-size: cover;
     background-position: center top
 }
