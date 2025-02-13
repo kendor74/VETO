@@ -873,6 +873,7 @@ footer {
     max-width: 1200px;
     margin: auto;
     align-items: center;
+    margin-left: 52px;
   }
   
   .footer-hotline {
@@ -983,7 +984,7 @@ footer {
     
     header {
         height: 100vh;
-        background-position: 35%
+        background-position: 30%
     }
 
     section.services {
